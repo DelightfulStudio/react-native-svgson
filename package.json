@@ -61,7 +61,5 @@
   "jest": {
     "preset": "jest-react-native"
   },
-  "dependencies": {
-    "camelcase": "^5.0.0"
-  }
+  "dependencies": {}
 }
