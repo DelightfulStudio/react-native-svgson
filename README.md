@@ -18,9 +18,10 @@ import checkmark from '../icons/checkmark.json';
 
 function renderCheckmark() {
   const styles = {
-    // override default dimensions
-    height: 38,
-    width: 38,
+    svg: {
+        height: 38, // override default dimensions
+        width: 38,
+    },
     path: {
         fill: '#000000' // all <path> elements
     },
