@@ -10,8 +10,9 @@ Based on [react-native-svgx](https://github.com/jasancheg/react-native-svgx) by 
 ## Example
 
 ```javascript
-import { Svg } from 'react-native-svg'; // or 'expo'
-import Svgson from 'react-native-svgson';
+import * as Svg from 'react-native-svg';
+// or import { Svg } from 'expo';
+import SvgJson from 'react-native-svgson';
 
 import checkmark from '../icons/checkmark.json';
 
@@ -28,7 +29,7 @@ function renderCheckmark() {
     }
   };
 
-  return <Svgson component={Svg} data={checkmark} style={styles} />;
+  return <SvgJson svgLib={Svg} data={checkmark} style={styles} />;
 }
 ```
 
