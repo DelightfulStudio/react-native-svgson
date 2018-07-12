@@ -6,6 +6,11 @@
 
 Based on [react-native-svgx](https://github.com/jasancheg/react-native-svgx) by Jose Antonio Sanchez.
 
+## Installation
+
+```
+$ npm install @delightfulstudio/react-native-svgson --save
+```
 
 ## Example
 
