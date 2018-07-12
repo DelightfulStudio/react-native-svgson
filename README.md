@@ -32,21 +32,3 @@ function renderCheckmark() {
   return <SvgJson svgLib={Svg} data={checkmark} style={styles} />;
 }
 ```
-
-### Supported SVG elements
-
-* `linearGradient`
-* `radialGradient`
-* `polyline`
-* `polygon`
-* `ellipse`
-* `circle`
-* `symbol`
-* `line`
-* `path`
-* `rect`
-* `text`
-* `defs`
-* `stop`
-* `use`
-* `g`
